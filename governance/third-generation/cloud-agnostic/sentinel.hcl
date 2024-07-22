@@ -46,7 +46,7 @@ policy "limit-cost-by-workspace-name" {
 
 policy "limit-proposed-monthly-cost" {
     source = "./limit-proposed-monthly-cost.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "prevent-destruction-of-prohibited-resources" {
